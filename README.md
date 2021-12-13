@@ -24,7 +24,7 @@ Please write a report briefly detailing the approach you take for every solution
 - Here, I found a tutorial linked below on how to implement an already trained facial focal point detector. I implemented this, which came with the video component, and was able to create a solution for 3. 
 - 4 was a bit more fun. I needed to create a vector pointing from the nose of the individual. To do this, I found the center of the head's bounding box (from the facial points), and then found the focal point that corresponded to the nose (#30). I used these two points to create a vector pointing from the nose outward. While I didn't calculate an angle like the project asked me to, this vector accomplishes the exact same thing. 
 
-### 5 
+### 5 Solution
 - This part was easy because of the tutorial I found below. The only thing I had to do was modify my 1 & 2 solution so it would work on video. Unfortunately drawing bounding boxes and focal points takes a little bit of time and has decreased the speed of my algorithm. Improvements could possibly be made to increase the speed of the entire algorithm. One possible solution would be to keep from passing an entire image into a function and instead figure out how to 'pass by referece' or return the focal points and bounding boxes. 
 
 ## Further Questions
