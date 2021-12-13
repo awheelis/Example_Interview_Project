@@ -2,12 +2,12 @@
 
 
 ## How to Run 
-1) install required packages in requirements.txt
-2) download and put this <a href = https://gist.github.com/Learko/8f51e58ac0813cb695f3733926c77f52> XML file</a> in an accessible directory </br>
+1) Install required packages in requirements.txt
+2) Download and put this <a href = https://gist.github.com/Learko/8f51e58ac0813cb695f3733926c77f52> XML file</a> in an accessible directory </br>
 (This file is required for face detection)
-4) download and put this <a href = https://github.com/GuoQuanhao/68_points/blob/master/shape_predictor_68_face_landmarks.dat> dat file</a> in an accessible directory. </br> (This will be used to identify the different face points)
+4) Download and put this <a href = https://github.com/GuoQuanhao/68_points/blob/master/shape_predictor_68_face_landmarks.dat> dat file</a> in an accessible directory. </br> (This will be used to identify the different face points)
 5) You will have to change paths in the script for both of these files
-6) at imgs = glob.glob... you will need to have your own image dataset with this path changed too
+6) At imgs = glob.glob... you will need to have your own image dataset with this path changed too
 7) Run everything cell by cell or all at once. 
 
 ## Report
