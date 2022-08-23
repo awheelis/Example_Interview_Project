@@ -1,4 +1,4 @@
-# Embody Interview Project
+# Computer Vision Example Project
 
 
 ## How to Run 
